@@ -9,6 +9,7 @@ public class MaxProductOfThreeNumber {
         int n = nums.length;
         // sort the arrays
         Arrays.sort(nums);
+        //System.out.println(Arrays.sort(nums));
 
         //calculate two maximum possible results
 
@@ -22,6 +23,8 @@ public class MaxProductOfThreeNumber {
 
         return Math.max(p1,p2);
     }
+
+
 
 
 }
