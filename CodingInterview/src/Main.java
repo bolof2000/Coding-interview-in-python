@@ -1,6 +1,4 @@
-import coding_interview_solutions.MaxProductOfThreeNumber;
-import coding_interview_solutions.TwoSum;
-import coding_interview_solutions.TwoSum2;
+import coding_interview_solutions.*;
 
 public class Main {
 
@@ -18,5 +16,16 @@ public class Main {
         MaxProductOfThreeNumber mul = new MaxProductOfThreeNumber();
         mul.maxProductNum(numbers);
         mul.maxProductNum(numbers2);
+        ContainsDuplicate dup = new ContainsDuplicate();
+        dup.duplicateWithDistanceK(numbers,2);
+
+        Anagram ana = new Anagram();
+        System.out.println(ana.anagramSolution("bolofinde","finbolode"));
+       AnagramHashMap anagram2 = new AnagramHashMap();
+       anagram2.isAnagram("bolofinde","bolofin");
+
+       FirstNonDuplicateCharacter first = new FirstNonDuplicateCharacter();
+       first.nonDuplicateChar("bolofinde");
+       System.out.println(first.nonDuplicateChar("bbolofinde"));
     }
 }
