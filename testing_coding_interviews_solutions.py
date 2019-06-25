@@ -12,6 +12,10 @@ class TestCodingInterview(unittest.TestCase):
       result = coding_interview.reverse_array([1,2,3,4,5])
       self.assertEqual(result,[5,4,3,2,1])
 
+    def test_string_rev(self):
+        result = coding_interview.string_palindrome("madam")
+        self.assertTrue(result,True)
+
 
 if __name__ == '__main__':
   unittest.main()
